@@ -81,6 +81,10 @@ main{
 
 }
 
+section{
+    margin-top: 130px;
+}
+
 /* about section styles */
 .about{
     margin-top: 131px;
@@ -91,9 +95,10 @@ main{
 }
 
 .section-title{
-     margin-bottom: 30px;
+     margin-bottom: 50px;
      font-size: 35px;
      font-weight: 700;
+     text-align: center;
 
 }
 
@@ -119,6 +124,43 @@ margin-bottom: 30px;
     font-size: 20px;
     font-weight: 700;
 }
+
+/* what i do styles */
+
+.what-i-do{
+    margin-top: 130px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+
+}
+
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description{
+    color:  #757575;
+}
+
+/* resume styles */
+
+
+
+
+
 
 /* flex works whatever it has inside in the ul list 
 makes it in same line side by side.
